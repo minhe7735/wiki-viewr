@@ -16,7 +16,7 @@ function Wiki() {
     return (
         <div className="pt-10 flex flex-col justify-center items-center">
             <button
-                className="bg-orange-300 p-3 rounded-lg hover:opacity-75"
+                className="bg-orange-300 p-3 rounded-lg hover:opacity-75 mb-2"
                 onClick={(e) => {
                     window.open("https://en.wikipedia.org/wiki/Special:Random");
                     e.preventDefault();
